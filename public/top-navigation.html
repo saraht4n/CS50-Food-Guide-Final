@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark w-100">
+    <a class="navbar-brand" href="#">
+        <img src="assets/restaurant-icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> PESTO Restaurants
+    </a>
+    <button class= "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav w-100">
+            <li class="nav-item active" id="homeMenu">
+                <a class="nav-link" href="#home" id="now" onClick="listHome()">Home</a>
+            </li>
+            <li class="nav-item active ml-auto " id="registerMenu">
+                <a class="nav-link" href="#register" data-toggle="modal" data-target="#registerModal">
+                    Register
+                </a>
+            </li>
+            <li class="nav-item active" id="loginMenu">
+                <a class="nav-link" href="#login" id="login" data-toggle="modal" data-target="#loginModal">
+                    Login
+                </a>
+            </li>
+            <li class="nav-item active ml-auto" id="logoutMenu" style="display:none;">
+                <a class="nav-link" href="#logout" id="logout" onclick="logoutMe()" >
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

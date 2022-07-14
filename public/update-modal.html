@@ -1,0 +1,53 @@
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body px-5">
+                <form>
+                    <div class="form-group">
+                      <label for="inputUsername1">Username</label>
+                      <input type="username" class="form-control" id="username" placeholder="Enter username">
+                    </div>
+                    <div>
+                      <label for="inputPassword1">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Enter password">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <label for="inputFirstName1">First Name</label>
+                      <input type="first-name" class="form-control" id="firstName" placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputLastName1">Last Name</label>
+                      <input type="last-name" class="form-control" id="lastName" placeholder="Enter last name">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputContactNumber1">Contact Number</label>
+                      <input type="contact-number" class="form-control" id="contactNumber" aria-describedby="contactNumberHelp" placeholder="Enter contact number">
+                      <small id="contactNumberHelp" class="form-text text-muted">We'll never share your contact number with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress1">Address 1</label>
+                      <input type="address" class="form-control" id="address1" placeholder="Enter address">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2 (Optional)</label>
+                      <input type="address" class="form-control" id="address2" aria-describedby="address2Help" placeholder="Enter address 2">
+                      <small id="address2Help" class="form-text text-muted">We'll never share your address with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputGender">What is your gender?</label>
+                        <br>
+                        <input type="radio" name="gender" id="gender" value="male"> Male
+                        <input type="radio" name="gender" id="gender" value="female"> Female
+                    </div>
+                    <button onclick="updateMe();" type="button" class="btn btn-warning">Update</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
